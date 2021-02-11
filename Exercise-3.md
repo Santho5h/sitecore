@@ -30,4 +30,5 @@ Sudo systemctl service start redis
 
 ![](media/4cb24028cfc948c68cb1f03cfa1b799e.png)
 
+**output:**
 ![](media/3a09a17fd7539328e5b56584bb95813b.png)
