@@ -1,6 +1,4 @@
->   **Cloud Operation Assessment**
-
->            **santhosh**
+   **Cloud Operation Assessment**
 
 >   **Table of Contents**
 
