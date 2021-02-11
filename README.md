@@ -10,9 +10,9 @@
 
 3.1	Basic metrics of the machine	
 
-[Article I.	Communicate with each other server	](Exercise-1.2.md)
+[Article I.	Communicate with each other server	](Exercise-1.1.md)
 
-[Article II.	Basic metric of the Linux machine	](Exercise-1.1.md)
+[Article II.	Basic metric of the Linux machine	](Exercise-1.2.md)
 
 3.2	Elasticsearch Installation in a docker container	
 
