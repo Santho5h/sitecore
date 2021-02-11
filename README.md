@@ -4,15 +4,15 @@ santhosh
 
 >   **Table of Contents**
 
-[1	Create an Azure free trial account	](#_Toc63936388)
+1	Create an Azure free trial account	
 
-[2	Setup SSH connection for both machine	](#_Toc63936389)
+2	Setup SSH connection for both machine	
 
-[3	Exercise	](#_Toc63936390)
+3	Exercise
 
->   [3.1	Basic metrics of the machine	](#_Toc63936391)
+>   [3.1	Basic metrics of the machine	](/Exercise-1.md)
 
-[Article I.	Communicate with each other server	](#_Toc63936392)
+[Article I.	Communicate with each other server	](Exercise-1.md)
 
 [Article II.	Basic metric of the Linux machine	](#_Toc63936393)
 
