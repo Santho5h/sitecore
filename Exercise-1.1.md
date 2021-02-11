@@ -2,9 +2,9 @@
 
 # Communicate with each other server using private IP
 
->**Vnet**
+**Vnet :**
 The virtual network that the VMs use to communicate with each other and the internet.
->**script**
+>   **script :**
 az network vnet create \
   --resource-group testsanthosh \
   --name test-santhosh-vnet \
@@ -13,7 +13,7 @@ az network vnet create \
   --subnet-prefix 10.0.4.0/24
 ![](media/image.png)  
 **output:**
-![](media/private_ping.png)
+![](media/private-ping.png)
 
 # Another way two comunicate using public address:
 >   **Step 1:** need to generate ssh key in both machines.  
