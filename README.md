@@ -1,9 +1,9 @@
 ![](RackMultipart20210211-4-vgkqvu_html_d336b6b08ffd417d.gif)Assessment Cloud Operations Engineer
 
 #
-# Cloud Operation Assessment
+#        Cloud Operation Assessment
 
-# santhosh
+#                 santhosh
 
 # **Table of Contents**
 
@@ -34,7 +34,7 @@
 [4 Conclusion ](#_Toc63936400)
 
 
-# Create an Azure free trial account
+# Azure free trial account
 
 Created two ubuntu instance for exercise in Azure free trail account.
 
