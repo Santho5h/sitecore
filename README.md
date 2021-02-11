@@ -1,9 +1,9 @@
 ![](RackMultipart20210211-4-vgkqvu_html_d336b6b08ffd417d.gif)Assessment Cloud Operations Engineer
 
 #
-#        Cloud Operation Assessment
+#       <t> Cloud Operation Assessment </t>
 
-#                 santhosh
+#
 
 # **Table of Contents**
 
