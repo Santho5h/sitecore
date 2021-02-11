@@ -44,4 +44,4 @@ command: vi \~/.ssh/authorized\_keys
 
 Network Usage report:
 
-![](media/a81e6b780c96601365f2504b9d3412aa.png)
+![](media/1.png)
