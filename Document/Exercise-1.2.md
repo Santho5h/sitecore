@@ -16,16 +16,16 @@
 | 2       | crontab -e                                                                                                                                                                                                                                                                                                                                                                     | Automate the script                                                          |
 | 3       | \*/5 \* \* \* \* (. \~/.profile;/home/santhosh/script/server_metrics.sh \>\> /home/santhosh/script/metrics.log 2\>&1)                                                                                                                                                                                                                                                          | This script run the job Every 5 minutes and update the result to metrics.log |
 
-![](media/369f0855efbee70e16f59ba9518c6651.png)
+![](../media/369f0855efbee70e16f59ba9518c6651.png)
 
 **Step 3:** Automated script using cronjob.
 
-![](media/226f91cdb67b9e6f3f0530bfd2b93ec9.png)
+![](../media/226f91cdb67b9e6f3f0530bfd2b93ec9.png)
 
 **Step 4:** Appended output from metrics.log files.  
 **output:**  
-![](media/a6beae384b79e7c3252b1b48ef03acc5.png)
+![](../media/a6beae384b79e7c3252b1b48ef03acc5.png)
 
 Network Usage report:
 
-![](media/a81e6b780c96601365f2504b9d3412aa.png)
+![](../media/a81e6b780c96601365f2504b9d3412aa.png)
