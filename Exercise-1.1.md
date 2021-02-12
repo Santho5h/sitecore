@@ -2,18 +2,18 @@
 
 # Communicate with each other server using Vnet
 
-**Create Instance Using PowerShell Azure:  
-**
+**Create Instance Using PowerShell Azure: ** 
+
 
 | **Step** | **Script**                                                                                                                                                                                                                                                   | **comment**                                                                                          |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | 1        | az group create --name SanthoshResourceGroup --location eastus                                                                                                                                                                                               | Need to create resource group                                                                        |
 | 2        | az network vnet create --address-prefixes 10.0.0.0/16 --name SanthoshVirtualNetwork --resource-group SanthoshResourceGroup --subnet-name SanthoshSubnet --subnet-prefixes 10.0.0.0/24                                                                        | Create new subnet attached to an Existing Resource group                                             |
 | 3        | az vm create --resource-group SanthoshResourceGroup --name santhosh-vm1 --image UbuntuLTS --generate-ssh-keys --output json   az vm create --resource-group SanthoshResourceGroup --name santhosh-vm2 --image UbuntuLTS --generate-ssh-keys --output json    |  Create two new virtual machine running Ubuntu, which uses SSH authentication for login.             |
-| 4        | Ssh public-IP                                                                                                                                                                                                                                                | Confirm that the VM is running by connecting over SSH. Example: ssh 40.117.251.17 ssh 52.149.228.205 |
+| 4        | ssh public-IP                                                                                                                                                                                                                                                | Confirm that the VM is running by connecting over SSH. Example: ssh 40.117.251.17 ssh 52.149.228.205 |
 | 5        | az vm show --name santhosh-vm1 --resource-group SanthoshResourceGroup                                                                                                                                                                                        | List information from a resource.                                                                    |
 
-**Output**
+**Output for the Script**
 
 **Step 1:**
 
