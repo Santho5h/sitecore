@@ -25,11 +25,13 @@ killed it.
 
 kill [process id/number]
 
-Afterwards I could start redis service again.
+**Afterwards I could start redis service again.**
 
->Sudo systemctl service start redis
->sudo systemctl daemon-reload
->sudo redis-services --daemonize yes
+sudo systemctl service start redis
+
+sudo systemctl daemon-reload
+
+sudo redis-services --daemonize yes
 
 >**output:**
 ![](media/3a09a17fd7539328e5b56584bb95813b.png)
