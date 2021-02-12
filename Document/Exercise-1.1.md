@@ -177,7 +177,7 @@
 
 }
 **output:**
-![](media/private-ping.png)
+![](../media/private-ping.png)
 
 # Another way two comunicate using public address:
 >   **Step 1:** need to generate ssh key in both machines.  
@@ -195,4 +195,4 @@ command: vi \~/.ssh/authorized\_keys
 
 **Output:**
 
-![](media/fffa272585cdb5f39a20e53b015d7374.png)
+![](../media/fffa272585cdb5f39a20e53b015d7374.png)
