@@ -1,6 +1,6 @@
 ## Basic metrics of the machine
 
-# Communicate with each other server using private IP
+# Communicate with each other server using Vnet
 
 **Create Instance Using PowerShell Azure:  
 **
@@ -40,8 +40,8 @@
 
 }
 
-**Step 2:  
-**{
+**Step 2:**  
+{
 
 "newVNet": {
 
@@ -153,8 +153,8 @@
 
 }
 
-**Step 3:  
-**{- Finished ..
+**Step 3:**  
+{- Finished ..
 
 "fqdns": "",
 
