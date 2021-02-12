@@ -2,7 +2,7 @@
 
 # Communicate with each other server using Vnet
 
-**Create Instance Using PowerShell Azure: ** 
+**Create Instance Using PowerShell Azure:** 
 
 
 | **Step** | **Script**                                                                                                                                                                                                                                                   | **comment**                                                                                          |
