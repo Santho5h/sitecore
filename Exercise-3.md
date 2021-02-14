@@ -10,11 +10,13 @@
 
 ![](media/6b7557a94d0df120e18dcc2d73daa7d7.png)
 
-**Step 2:** Missed to add list of items in /etc/systemd/system/multi-user.target.wants/redis-server.service. Also missed to add Type=forking in redis-server.service configuration.
+**Step 2:** First findout the redis service path using locate command. Then checked /etc/redis/redis.conf file as well.
+ 
+>Missed to add list of items in /etc/systemd/system/multi-user.target.wants/redis-server.service. Also missed to add Type=forking in redis-server.service configuration.
 ![](media/redis-forking.png)
 ![](media/e9bf46c3091777ca22b7ac276cc601f8.png)
 
-**Step 3:** Need to start Redis-server as well. Redis-server –daemonize yes
+**Step 3:** Need to start Redis-server as well. 
 
 ![](media/4cb24028cfc948c68cb1f03cfa1b799e.png)
 Although Even rebooting the system could not help, in my case it was because of
@@ -32,7 +34,7 @@ sudo systemctl service start redis
 
 sudo systemctl daemon-reload
 
-sudo redis-services --daemonize yes
+( sudo redis-services --daemonize yes ) this command helps to run  backuground redis-server
 
 >**output:**
 ![](media/3a09a17fd7539328e5b56584bb95813b.png)
