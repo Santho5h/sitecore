@@ -3,7 +3,7 @@ az group create --name RG-vm1 --location eastus
 az group create --name RG-vm2  --location eastus
 
 
-#create a new virtual network under RG-1
+#create a new virtual network under RG-1 resource group
 az network vnet create --address-prefixes 10.0.0.0/16 --name VN-vm1 --resource-group RG-vm1 --subnet-name SN-vm1 --subnet-prefixes 10.0.2.0/24
 
 # create another virtual network under RG-2 resource group
@@ -15,7 +15,9 @@ az vm create --resource-group RG-vm1 --name santhosh-vm1 --image UbuntuLTS --gen
 #create a another new virtual machine under RG-vm2 resource group
 az vm create --resource-group RG-vm2 --name santhosh-vm2 --image UbuntuLTS --generate-ssh-keys --output json
 
+#both server was different virtual network firt we need to communicate both network
 #create VNET peering. This will allow communication between the above two virtual machines. 
+
 #peering from RG-1 to RG-2
 
 $vnet1 = Get-AzVirtualNetwork -Name VN-vm1 -ResourceGroupName RG-vm1
@@ -29,3 +31,4 @@ Add-AzVirtualNetworkPeering -Name RG-2toRG-1 -VirtualNetwork $vnet2 -RemoteVirtu
 Get-AzVirtualNetworkPeering -ResourceGroupName RG-vm1 -VirtualNetworkName VN-vm1 | Format-Table VirtualNetworkName, PeeringState
 Get-AzVirtualNetworkPeering -ResourceGroupName RG-vm2 -VirtualNetworkName VN-vm2 | Format-Table VirtualNetworkName, PeeringState
 
+#now communicate each machine
