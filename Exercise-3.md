@@ -10,7 +10,7 @@
 
 ![](media/6b7557a94d0df120e18dcc2d73daa7d7.png)
 
-**Step 2:** Missed to add list of items in /etc/systemd/system/redis.service. Also missed to add Type=forking in /etc/systemd/system/multi-user.target.wants/redis-server.service.
+**Step 2:** Missed to add list of items in /etc/systemd/system/multi-user.target.wants/redis-server.service. Also missed to add Type=forking in redis-server.service configuration.
 ![](media/redis-forking.png)
 ![](media/e9bf46c3091777ca22b7ac276cc601f8.png)
 
