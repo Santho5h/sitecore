@@ -14,7 +14,7 @@
  
 >Missed to add list of items in /etc/systemd/system/multi-user.target.wants/redis-server.service. Also missed to add Type=forking in redis-server.service configuration.
 ![](media/redis-forking.png)
-![](media/e9bf46c3091777ca22b7ac276cc601f8.png)
+
 
 **Step 3:** Need to start Redis-server as well. 
 
@@ -37,4 +37,4 @@ sudo systemctl daemon-reload
 ( sudo redis-services --daemonize yes ) this command helps to run  backuground redis-server
 
 >**output:**
-![](media/3a09a17fd7539328e5b56584bb95813b.png)
+![](media/redis-status.png)
