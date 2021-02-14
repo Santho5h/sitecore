@@ -13,7 +13,7 @@
 **Step 2:** First findout the redis service path using locate command. Then checked /etc/redis/redis.conf file as well.
  
 >Missed to add list of items in /etc/systemd/system/multi-user.target.wants/redis-server.service. Also missed to add Type=forking in redis-server.service configuration.
-![](media/redis-forking.png)
+>![](media/redis-forking.png)
 
 
 **Step 3:** Need to start Redis-server as well. 
